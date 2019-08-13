@@ -1,0 +1,26 @@
+
+*{
+  /* margin: 0 20%; */
+}
+.one{
+   width: 40%;
+   background-color: lightblue;
+   border: solid 2px blue;
+   padding:10px 20px;
+   float: left;
+   margin: 0 30%;
+  }
+  input[type=submit],input[type=reset]
+  {
+    margin: 5px 90px;
+    background: green;
+    border: solid red 1px;
+    border-radius: 5px;
+  }
+
+  input, select, label{
+    height:30px;
+    font-size: 20px;
+    size: 20px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body bgcolor="#8aad66">
+    <h1>Basic python interview questions</h1>
+    <ol>
+      <li>what is python?</li>
+      <p>python is a general purpose language. It is high-level programming languge, interpreted,
+        open source, object oriented language, dynamic typed language.</p><br>
+
+      <li>what is software?</li>
+      <p>software is the collection of programs.</p><br>
+
+      <li>what is a programming?</li>
+      <p>programming is the set of rules and instructions which are given to the computer.</p><br>
+
+      <li>what is the meaning of data types?</li>
+      <pre>Data types are keywords, These are used to represent which type of data has to be stord in the variable.
+      we have mainly 9 types of datatypes. they are Integer, Float, Boolean, complex, string, tupple, list, set and dictionary.
+    Integer: It is a number without decimal points. ex: a=100, b=14, c=456
+    Float: It is a number with decimal points. ex: a=100.12, b=14.25, c=4.56
+    Complex: It is the combination of real and imaginary part. ex: a=5+3j,7+2j, c=5j
+    Boolean: It is the condional statement. ex: a=True, b=False.
+    String: The sequence of characters is considered as string. a='python', b="django".
+    List: It is the collection of hetrogeneous, duplicate, ordered and mutable elements within the square brackets.
+    Tupple: It is the collection of hetrogeneous, duplicate, ordered and immutable elements within the paranthesis brackets.
+    Set: It is the collection of hetrogeneous, unordered, mutable elements within the curley brackets.
+    Dictionary: It is the key value pair representaion.</pre><br>
+
+      <li>what the difference between static and dynamic typed languages?</li>
+      <table border="1">
+        <thead>
+          <th>static type language</th>
+          <th>dynamic type language</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>In these languages, explicitly we need to give data type to the variable.</td>
+            <td>In these languages, at run time automatically data type declared to the variable.</td>
+          </tr>
+          <tr>
+            <td>In one variable, only one type of data can be stored. we can't change the data type of the variable.</td>
+            <td>in one variable, we can store different types of data. we can change the data type of the variable.</td>
+          </tr>
+          <tr>
+            <td>ex: C, C++, Java, .Net etc.</td>
+            <td>ex: Python, JavaScript, etc.</td>
+          </tr>
+        </tbody>
+      </table><br>
+
+      <li>what is the difference between mutable and immutable objects?</li>
+      <table border="1">
+        <thead>
+          <th>mutable objects</th>
+          <th>immutable objects</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>the objects which does allow modification after execution of program.</td>
+            <td>the objects which doesn't allow modification after execution of program.</td>
+          </tr>
+          <tr>
+          <td>iterations on the mutable objects takes more time.</td>
+          <td>iterations on the immutable objects takes less time.</td>
+        </tr>
+        <tr>
+          <td>ex: Integer, float, complex, Boolean,String, tupple, etc.</td>
+          <td>ex: List, Set, Dictionary, etc.</td>
+        </tr>
+        </tbody>
+      </table><br>
+
+      <li>what is the difference between fundamental and collection type data types?</li>
+      <table border="1">
+        <thead>
+          <th>fundamental data type</th>
+          <th>collection data type</th>
+        </thead>
+        <tr>
+          <td>It stores only data.</td>
+          <td>It stores objects, which contain elements.</td>
+        </tr>
+        <tr>
+          <td>ex: Integer, float, boolean, complex, string, etc.</td>
+          <td>ex: list, tupple, set, dictionary, etc.</td>
+        </tr>
+      </table><br>
+
+      <li>what are differene between list, tupple, set, dictionay?</li>
+      <table border="1">
+        <thead>
+          <th>list</th>
+          <th>tupple</th>
+          <th>set</th>
+          <th>dictionay</th>
+        </thead>
+        <tr>
+          <td>it is mutable</td>
+          <td>it is immutable</td>
+          <td>it is mutable</td>
+          <td>it is mutable</td>
+        </tr>
+        <tr>
+          <td>elements may mutable or immutable</td>
+          <td>elements may be mutable or immutable</td>
+          <td>elements must be immutable</td>
+          <td>keys must be immutable and values may be immutable or mutable</td>
+        </tr>
+        <tr>
+          <td>order is preserved</td>
+          <td>order is preserved</td>
+          <td>order is not preserved</td>
+        <h2><td>order is preserved</td></h2>
+        </tr>
+        <tr>
+          <td>it allows hetrogeneous elements</td>
+          <td>it allows hetrogeneous elements</td>
+          <td>it allows hetrogeneous elements</td>
+          <td>it allows hetrogeneous elements</td>
+        </tr>
+        <tr>
+          <td>it support indexing</td>
+          <td>it support indexing</td>
+          <td>it doesn't supporting indexing</td>
+          <td>it support indexing</td>
+        </tr>
+        <tr>
+          <td>it allows duplicates</td>
+          <td>it allows duplicates</td>
+          <td>it doesn't allow duplicates</td>
+          <td>values may duplicates, but keys doesn't duplicates</td>
+        </tr>
+        <tr>
+          <td>for iterations takes more time</td>
+          <td>for iterations takes less time</td>
+          <td>for iterations take more time</td>
+          <td>for iterations takes more time</td>
+        </tr>
+      </table><br>
+      <li>when we go for list, tupple, set, dictionary?</li>
+      <pre>
+      <b>List:</b>It best suitable for read and write operations.
+      <b>Tupple:</b>It is best for only read and iterations purpose.
+      <b>Set:</b>It is used for mathematical operations like union and intersection
+      <b>Dictionary:</b>It is best for key and value representation.</pre><br>
+      <li>what are functions?</li>
+      <p>functions are nothing but a structure which are used for represent business logic.</p>
+      <li>what are different parameters in functions?</li>
+      <pre>the variables declared at the creation of function is called as parameters.we have mainly three types of parameters.
+      <b>Non-default parameters:</b>The parameters, which are declared without assigning values are known as non default parameters.
+      <b>Default parameters:</b>The parameters, which are declared with assigning values are considered as default parameters.
+      <b>Arbitary parameters:</b>The parameters, which are precedeed by single star(*) or multi star(**). Single star parameters
+      return tupple object and multi star parameters return dictionary object.</pre><br/>
+      <li>what are different arguments in functions?</li>
+      <pre>At the time of calling function, we pass values to the parameters are nothing but arguments.
+      <b>Non-default arguments:</b> The arguments which are declared with out assigning parameters are nothing but non default arguments.
+      <b>Default arguments:</b> The arguments which are declared with assigning parameters are nothing but default parameters.</pre><br/>
+      <li>what is documentation string?</li>
+      <p>Documentation string tells the description of function logic.</p><br/>
+      <li>what is recursive function?</li>
+      <p>A function calling itself is nothing but recursive function. It's iterations are nearly equal to 1000.</p><br/>
+      <li>what is anonymous functions?</li>
+      <p>The function without function name is called anonymous function or lambda function.</p><br/>
+      <li>what is the need of annonymous functions?</li>
+      <p>
+        <ul>
+          <li>whenever we need to pass a function as parameter to the another function we use lambda funtions.</li>
+          <li>if we use only one expression then we go for a lambda function.</li>
+          <li>It returns value with out return statement.</li>
+        </ul>
+      </p><br/>
+      <li>what is a module?</li>
+      <p>module is nothing but a program file which is saved with extension py.</p><br/>
+      <li>what is a package?</li>
+      <p>package is a collection of modules.</p><br/>
+      <li>what is file handling?</li>
+      <p>File creation and updation are comes under file handling.</p><br/>
+      <li>what is exception handling?</li>
+      <p>whenever exception is raised in a program then program terminates abnormally. For handling this exception
+      we are defining exception representation class to handle the exception in nothing but a exception handling.</p>
+      <li>what is try block?</li>
+      <p>If you feel any exceptions in program then that statements and related to that statemets are kept in try block.
+      It is try to excecute that statemens. If there are no exception then it execute normally.</p><br/>
+      <li>what is except block?</li>
+      <p>It is preceeded by try bock. whenever exception is raised in try block then it comes into except block without
+      executing remaining statements. It executes exception represented class and display user friendly messages.</p><br/>
+      <li>what is finally block?</li>
+      <p>It is preceeded by except block. Wheneve exception is raised or not, even though exception is raised, handled or not
+      we have to execute statemens. That statements are kept in finally block. like file closing statements are kept in finally block.</p><be/>
+      <li></li>
+
+      <li>what is the difference between append and extend in list?</li>
+      <p>If we pass any number of elements through appeend method then return single object, but if we pass any
+      number of elements through extend method then it return that number of objects.</p>
+      <li>what is the difference between remove and discard in set?</li>
+      <p>If not existing element pass through remove method then it give error message, but if the same element pass
+      through discard method then it doesn't give any message.</p>
+
+    </ol>
+  </body>
+</html>

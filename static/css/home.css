@@ -1,0 +1,59 @@
+*{
+  /* background-image: url('https://www.beabetterguide.com/wordpress/wp-content/uploads/revslider/slider_9/video-bg.jpg'); */
+
+}
+.nav {
+
+  padding: 10px;
+  font-size: 20px;
+  word-spacing: 120px;
+  text-decoration: none;
+  color: red;
+}
+
+.column1 {
+  margin-right: 100px;
+  width: 98%;
+  float: left;
+  background-color: lightgrey;
+  text-indent: 40px;
+  text-align: justify;
+  color: black;
+  margin: 1%;
+  border-radius: 1%;
+}
+
+.column2{
+  color: black;
+  float: left;
+  display: inline-block;
+  width: 40%;
+  margin: 1%;
+  border-radius: 3%;
+  background-color: lightblue;
+}
+
+.column3{
+  background-color: lightpink;
+  margin: 1%;
+  float: left;
+  width: 25%;
+  color:black;
+  border-radius: 3%;
+
+}
+.img1{
+  margin: 5% 10%;
+  margin-left: 10px;
+  width: 70%;
+  height: 30%;
+}
+
+h3{
+  color: blue;
+}
+.heading{
+  background: lightblue;
+  border: 1px blue solid;
+  text-align: center;
+}
